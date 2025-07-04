@@ -5,10 +5,10 @@ python-dotenv==1.0.0
 requests==2.32.4
 
 # RAG implementation dependencies
-langchain==0.0.267
-langchain-community>=0.0.16
-langchainhub>=0.1.14
-langchain-text-splitters>=0.0.1
+langchain
+langchain-community
+langchainhub
+langchain-text-splitters
 
 # Vector store
 chromadb==0.4.13
@@ -16,6 +16,7 @@ chromadb==0.4.13
 # Document processing
 pypdf==3.16.0
 unstructured>=0.10.30
+pdfplumber
 
 # Ollama integration
-langchain-ollama>=0.0.1
+langchain-ollama

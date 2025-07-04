@@ -1,0 +1,10 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+pydantic==2.3.0
+python-dotenv==1.0.0
+# These will be needed later for RAG implementation
+# langchain==0.0.267
+# openai==0.28.0
+# chromadb==0.4.13
+# tiktoken==0.5.1
+# pypdf==3.16.0
